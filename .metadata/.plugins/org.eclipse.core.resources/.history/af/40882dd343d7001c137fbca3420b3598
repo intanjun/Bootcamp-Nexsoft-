@@ -1,0 +1,39 @@
+package com.nexsoft.looping;
+
+import java.util.Scanner;
+
+public class SampleLooping5 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		/*int i=0, sum=0;
+		while(i<5){
+			i++;
+			sum += i;
+			if(i==2) break;
+			System.out.print(i+ " \n");
+		}
+		//System.out.println("Totatlnya : "+sum);
+		*/
+		
+		for(int a=0; a<10; a++) {
+			if(a==4) { 
+				continue;
+			}
+		System.out.println(a);
+		}
+		
+		while(true) {
+			System.out.println("Close ya/tidak : ");
+			String jawab = input.nextLine();
+			if(jawab.equalsIgnoreCase("ya")) {
+				break;
+			}
+			System.out.println("Terima Kasih");
+		}
+		
+	}
+}
+	
+

@@ -1,0 +1,37 @@
+package com.nexsoft.looping;
+
+import java.util.Scanner;
+
+public class SampleLooping2 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		/*
+		int nilaiAwal, nilaiAkhir;
+		System.out.printf("Masukkan Nilai Awal  : ");
+		nilaiAwal = input.nextInt();
+		System.out.printf("Masukkan Nilai Akhir : ");
+		nilaiAkhir = input.nextInt();
+		System.out.println("--------------------------");
+		for(int i=nilaiAwal; i<=nilaiAkhir; i++) {
+			System.out.printf(i+ " ");
+		}
+		System.out.println("");
+		System.out.println("--------------------------");
+		*/
+		
+		int jumlah =10;
+		String nama[] = new String[10];
+		
+		//System.out.println("Masukkan jumlah Siswa : ");
+		//jumlah = input.nextInt();
+		for(int i=0; i<=jumlah; i++) {
+			System.out.printf("Masukkan nama Siswa   : ");
+			nama[i] = input.nextLine();
+		}
+		for(String i:nama) {
+			System.out.println(i);
+		}
+		
+	}
+}

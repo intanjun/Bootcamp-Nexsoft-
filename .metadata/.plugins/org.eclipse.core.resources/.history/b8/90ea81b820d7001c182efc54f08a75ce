@@ -1,0 +1,19 @@
+package com.nexsoft.looping;
+
+import java.util.Scanner;
+
+public class SampleLooping2 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		int nilaiAwal, nilaiAkhir;
+		System.out.printf("Masukkan Nilai Awal  : ");
+		nilaiAwal = input.nextInt();
+		System.out.printf("Masukkan Nilai Akhir : ");
+		nilaiAkhir = input.nextInt();
+		for(int i=nilaiAwal; i<=nilaiAkhir; i++) {
+			System.out.printf(i+ " ");
+		}
+	}
+}

@@ -1,0 +1,14 @@
+package com.nexsoft.looping;
+
+import java.util.Scanner;
+
+public class SampleLooping2 {
+
+	private static Scanner input;
+
+	public static void main(String[] args) {
+		input = new Scanner(System.in);
+		
+		
+	}
+}

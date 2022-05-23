@@ -1,0 +1,31 @@
+package com.nexsoft.looping;
+
+import java.util.Iterator;
+
+public class SampleLooping {
+
+	public static void main(String[] args) {
+		for(int i=1; i<=10; i++) {
+			System.out.println(i+" . nexsoft");
+		}
+		System.out.println("----------------------");
+		for (int i=1; i<=10; i=i+2) {
+			System.out.println(i+" ");
+		}
+		System.out.println("----------------------");
+		for(int i=10; i>=1; i--) {
+			System.out.println(i+" ");
+		}
+		System.out.println("----------------------");
+		
+		String nama="Nexsoft";
+		for (int i=1; i<=nama.length(); i++ ) {
+			System.out.println(i+" ");
+		}
+		System.out.println("----------------------");
+		int errorlogin=3;
+		for(int i=1; i<=errorlogin; ++i) {
+			System.out.println(i+" ");
+		}
+	}
+}

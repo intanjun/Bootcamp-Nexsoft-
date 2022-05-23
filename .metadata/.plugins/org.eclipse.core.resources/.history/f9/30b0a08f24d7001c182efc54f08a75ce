@@ -1,0 +1,65 @@
+package com.nexsoft.looping;
+
+import java.util.Scanner;
+
+public class SampleLooping2 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		/*
+		int nilaiAwal, nilaiAkhir;
+		System.out.printf("Masukkan Nilai Awal  : ");
+		nilaiAwal = input.nextInt();
+		System.out.printf("Masukkan Nilai Akhir : ");
+		nilaiAkhir = input.nextInt();
+		System.out.println("--------------------------");
+		for(int i=nilaiAwal; i<=nilaiAkhir; i++) {
+			System.out.printf(i+ " ");
+		}
+		System.out.println("");
+		System.out.println("--------------------------");
+		
+		
+		int jumlah =3;
+		String nama[] = new String[3];
+		
+		//System.out.println("Masukkan jumlah Siswa : ");
+		//jumlah = input.nextInt();
+		System.out.println("Masukkan nama Siswa   : ");
+		for(int i=0; i<jumlah; i++) {
+			nama[i] = input.nextLine();
+		}
+		System.out.println("------------------------------");
+		for(String i : nama) {
+			System.out.println(i);
+		}
+		
+		int jumlah ;
+		String nama[] = new String[100];
+		
+		System.out.println("Masukkan jumlah Siswa : ");
+		jumlah = input.nextInt();
+		System.out.println("Masukkan nama Siswa   : ");
+		for(int i=0; i<jumlah; i++) {
+			nama[i] = input.nextLine();
+		}
+		System.out.println("------------------------------");
+		for(String i : nama) {
+			System.out.println(i);
+		}
+		*/
+		int nilai =3;
+		String nama[] = new String[nilai];
+		
+		//System.out.println("Masukkan jumlah Siswa : ");
+		//jumlah = input.nextInt();
+		System.out.println("Masukkan nama Siswa   : ");
+		for(int i=0; i<jumlah.lenght; i++) {
+			nama[i] = input.nextLine();
+		}
+		System.out.println("------------------------------");
+		for(String i : nama) {
+			System.out.println(i);
+		}
+		}
+	}

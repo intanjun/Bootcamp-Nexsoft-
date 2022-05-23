@@ -1,0 +1,53 @@
+package com.nexsoft.looping;
+
+import java.util.Scanner;
+
+public class SampleLooping6 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		String passw = "nexsoft";
+		int maxInput=3,hitung=0;
+		boolean masuk=true;
+		
+		do {
+			System.out.println("Masukkan password : ");
+			inputPassword = input.nextLine();
+			
+			if(inputPassword.equals(passw)) {
+				System.out.println("Login berhasil!");
+				break;
+			}else if(!inputPassword.equals(passw)) {
+				hitung += 1;
+				System.out.println("Login tidak berhasil");
+				if(hitung == maxInput) {
+					System.out.println("Sudah "+ hitung + " percobaan");
+					masuk = false;
+				}
+			}
+		} while(masuk);
+		
+		
+		
+		/*
+		System.out.println("Masukan Password : ");
+		String inputPassw = input.nextLine();
+		do {
+		if(inputPassw.equals(passw)) {
+			System.out.println("Password Matched");
+		}else {
+			System.out.println("Masukan Password : ");
+			inputPassw = input.nextLine();
+			hitung+=1;
+		}
+			
+			if(hitung==3) {
+			System.out.println("Akun anda ditangguhkan karena sudah 3 kali gaga");
+			}else{
+				System.out.println("0");
+		}
+		*/
+	}
+}
+

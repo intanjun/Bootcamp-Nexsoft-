@@ -1,0 +1,25 @@
+package com.nexsoft.looping;
+
+import java.util.Scanner;
+
+public class SampleLooping6 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		String passw = "nexsoft";
+		int maxInput=3,hitung=0;
+		//boolean true;
+		System.out.println("Masukan Password : ");
+		String inputPassw = input.nextLine();
+		
+		
+		if(inputPassw==passw) {
+			System.out.println("Password Matched");
+		}else if(inputPassw!=passw && hitung==3) {
+			System.out.println("Akun anda ditangguhkan karena sudah 3 kali gagal");
+		}else {
+			System.out.println("Sudah mencoba lebih dari 3 kali");
+		}
+	}
+

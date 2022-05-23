@@ -1,0 +1,45 @@
+package com.nexsoft.looping;
+
+import java.util.Scanner;
+
+public class SampleLooping6 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		/*
+		String passw = "nexsoft", inputPassword;
+		int maxInput = 3, hitung = 0;
+		boolean masuk = true;
+		
+		do {
+			System.out.print("Masukkan password : ");
+			inputPassword = input.nextLine();
+			
+			if(inputPassword.equals(passw)) {
+				System.out.println("Password Matched, Login berhasil!");
+				break;
+			}else if(!inputPassword.equals(passw)) {
+				hitung += 1;
+				System.out.println("Password salah, masukkan password yang benar");
+				if(hitung == maxInput) {
+					System.out.println("Akun anda ditangguhkan karena sudah "+ hitung + " percobaan");
+					masuk = false;
+				}
+			}
+		} while(masuk);
+		*/
+		 int a=0, b=1, c, hitung=10;    
+		 System.out.print(a+" "+b);//printing 0 and 1    
+		    
+		 for(int i=2; i<hitung; ++i)//loop starts from 2 because 0 and 1 are already printed    
+		 {    
+		  c = a + b;    
+		  System.out.print(" "+c);    
+		  a = b;    
+		  b = c;    
+		 }    
+		
+		
+	}
+}
+
